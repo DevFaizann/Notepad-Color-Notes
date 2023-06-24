@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.notepad_colornotes'
-    compileSdk 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.example.notepad_colornotes"
@@ -34,8 +34,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
-    implementation "androidx.room:room-runtime:2.5.0"
-    annotationProcessor "androidx.room:room-compiler:2.5.0"
+    implementation "androidx.room:room-runtime:2.4.0"
+    annotationProcessor "androidx.room:room-compiler:2.4.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

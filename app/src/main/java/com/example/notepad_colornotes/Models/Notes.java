@@ -8,6 +8,7 @@ import java.io.Serializable;
 //Serialization in Java allows us to convert an Object to stream that we can send over the network or save it as file or store in DB for later usage
 
 @Entity(tableName = "notes")
+@SuppressWarnings("unused")
 public class Notes implements Serializable {
 
     @PrimaryKey(autoGenerate = true) //automatically generates an ID whenever we add an item

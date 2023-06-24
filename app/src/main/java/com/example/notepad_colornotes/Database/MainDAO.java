@@ -9,6 +9,7 @@ import androidx.room.Query;
 
 import com.example.notepad_colornotes.Models.Notes;
 
+
 import java.util.List;
 
 @Dao
@@ -27,4 +28,7 @@ public interface MainDAO {
 
     @Delete
     void delete(Notes notes);
+
+    @Query("UPDATE notes SET pinned = :pin WHERE ID = :id")
+    void pin(int id, boolean pin);
 }
