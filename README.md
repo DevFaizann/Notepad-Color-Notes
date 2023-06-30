@@ -5,10 +5,10 @@
 The Notepad Android Application is a user-friendly and feature-rich Notepad application for Android devices. It allows users to create, edit, and organize notes effortlessly, providing a seamless user experience. This README file provides an overview of the application, installation instructions, and key features.
 
 ## Table of Contents
-- [Installation](installation)
-- [Features](features)
-- [Usage](usage)
-- [Contributing](contributing) 
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing](#contributing) 
 
 ## Installation
 To use the Notepad Android Application, follow these steps:
